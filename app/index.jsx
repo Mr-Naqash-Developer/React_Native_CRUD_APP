@@ -110,6 +110,16 @@ const styles = StyleSheet.create({
     width: '100%',
     maxWidth: 1024,
     marginHorizontal: 'auto',
+    pointerEvents: 'auto',
+  },
+  todoText: {
+    flex: 1,
+    fontSize: 20,
+    color: 'white',
+  },
+  completedText: {
+    textDecorationLine: 'line-through',
+    color: 'gray',
   }
 
 })
